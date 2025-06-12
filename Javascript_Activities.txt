@@ -2,7 +2,7 @@
 
 1. Output
 [x] Use alert() to show a greeting
-[ ] Use document.write() to display your name
+[x] Use document.write() to display your name
 [ ] Use console.log() to show the result of 10 + 5
 [ ] Prompt a user for input and display it using all 3 output types
 
