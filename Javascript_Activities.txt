@@ -1,199 +1,618 @@
 ✅ JavaScript Tutorial Activities Checklist
 
-1. Output
-[x] Use alert() to show a greeting
-[ ] Use document.write() to display your name
-[ ] Use console.log() to show the result of 10 + 5
-[ ] Prompt a user for input and display it using all 3 output types
+Note: Use [ ] for unfinished activities and [x] for completed ones.
 
-2. Statements and Syntax
-[ ] Write three working JavaScript statements
-[ ] Write a statement with a missing semicolon and fix it
-[ ] Use a block {} to wrap multiple statements
+📘 Lesson 1: JavaScript Output
+🔟 Activities to Master Output
+[ ] Use alert() to display a welcome message when the page loads, which helps you understand how JavaScript interacts with users immediately.
+[ ] Use document.write() to dynamically add a message inside your HTML page, demonstrating inline content generation.
+[ ] Use console.log() to print debugging information to the browser console to understand how developers monitor code behavior.
+[ ] Combine alert(), document.write(), and console.log() in one script to observe how each output method works in different environments.
+[ ] Create a button that uses console.log() to show a message only when clicked, reinforcing event-based output.
 
-3. Comments
-[ ] Add a single-line comment to describe a line
-[ ] Use a multi-line comment to explain a section
-[ ] Comment out a line to temporarily disable it
+📘 Lesson 2: JavaScript Statements
+🔟 Activities to Master Statements
+[ ] Write three JavaScript statements on separate lines to understand the syntax and flow of execution.
+[ ] Combine multiple statements on a single line using semicolons to learn how JavaScript separates instructions.
+[ ] Use a block {} to group several statements and understand scope boundaries in functions or conditions.
+[ ] Create a block of code that calculates and logs the area of a rectangle to practice multiple related statements.
+[ ] Observe what happens if you omit semicolons, to understand JavaScript’s automatic semicolon insertion.
 
-4. Variables (var, let, const)
-[ ] Declare a name, age, and city using let
-[ ] Try reassigning a const and observe error
-[ ] Show how var behaves differently in a block
+📘 Lesson 3: JavaScript Comments
+🔟 Activities to Master Comments
+[ ] Add a single-line comment to describe what a variable does, reinforcing code readability.
+[ ] Write a multi-line comment explaining the purpose of a function to document your code clearly.
+[ ] Comment out a line of code and observe how it disables execution, which helps with debugging.
+[ ] Add comments to label each section of your script (e.g., // Input, // Processing, // Output) for better structure.
+[ ] Write a comment explaining why a calculation uses a certain formula — good for future reference.
 
-5. Operators
-[ ] Add, subtract, multiply, divide two numbers
-[ ] Use comparison operators like ==, !=, >, ===
-[ ] Use && and || to combine conditions
-[ ] Use ++ and -- on a counter
+📘 Lesson 4: JavaScript Variables
+🔟 Activities to Master Variables
+[ ] Declare a variable using var, assign a value, and log it to understand variable declarations.
+[ ] Declare a let variable inside a block and try to access it outside to see how block scope works.
+[ ] Declare a const variable and attempt to reassign it, so you understand immutability.
+[ ] Use all three declarations (var, let, const) in a single script to compare their behaviors.
+[ ] Practice naming conventions by declaring variables using camelCase, snake_case, and starting with underscores.
 
-6. Arithmetic and Assignment Operators
-[ ] Use +=, -=, *=, /= on a variable
-[ ] Create a simple calculator using assignment operators
-[ ] Use exponent ** to calculate powers
+📘 Lesson 5: JavaScript Operators
+🔟 Activities to Master Operators
+[ ] Write expressions using all arithmetic operators to understand JavaScript’s calculation syntax.
+[ ] Compare two values using == and === and explain the difference between type coercion and strict equality.
+[ ] Use logical operators (&&, ||, !) inside a condition to understand how compound conditions are evaluated.
+[ ] Create an expression using a ternary operator to simplify if-else logic.
+[ ] Write a compound statement that uses both comparison and arithmetic operators to make a decision.
 
-7. Data Types
-[ ] Declare a string, number, boolean, object, and array
-[ ] Use typeof to print the type of each
-[ ] Assign null and undefined to variables
+📘 Lesson 6: JavaScript Arithmetic
+🔟 Activities to Master Arithmetic Operators
+[ ] Calculate the area of a triangle using the formula 0.5 * base * height with variables.
+[ ] Write a program to add, subtract, multiply, and divide two user-input numbers.
+[ ] Use modulus % to determine if a number is even or odd.
+[ ] Use exponentiation ** to square and cube numbers.
+[ ] Create a tip calculator that multiplies a bill by a tip percentage.
 
-8. Functions
-[ ] Create a function that returns a greeting
-[ ] Create a function that calculates a sum
-[ ] Create a function that checks even or odd numbers
+📘 Lesson 7: JavaScript Assignment
+🔟 Activities to Master Assignment Operators
+[ ] Create a counter variable and use += and -= to increment and decrement it.
+[ ] Create a variable that multiplies itself by 2 using *= and logs the result.
+[ ] Use string concatenation with += to build a sentence from multiple variables.
+[ ] Build a mini bank balance simulator using += and -= to update a balance variable.
+[ ] Chain several assignments in one line (a = b = 5) and explain the result.
 
-9. Objects
-[ ] Create an object with name, age, and city
-[ ] Access object properties using dot and bracket
-[ ] Add and delete a property
+📘 Lesson 8: JavaScript Functions
+🔟 Activities to Master Functions
+[ ] Create a function that returns the sum of two parameters to learn reusable logic.
+[ ] Write a function that logs "Hello, [name]" when passed a name argument to practice string interpolation.
+[ ] Define a function that calculates the square of a number using return.
+[ ] Build a function that converts minutes into seconds.
+[ ] Create a function that checks if a number is positive or negative.
+[ ] Write a function that returns the longer of two strings.
+[ ] Write a function to reverse a string without using .reverse().
+[ ] Create a function that takes a year and returns if it's a leap year or not.
+[ ] Write a function that accepts age and returns "minor" or "adult" using a conditional.
+[ ] Refactor a piece of code into a function to improve reusability and readability.
 
-10. Events
-[ ] Create a button that shows an alert on click
-[ ] Use onmouseover to change background color
-[ ] Use onkeydown to log key press
+📘 Lesson 9: JavaScript Objects
+🔟 Activities to Master Objects
+[ ] Create an object person with name, age, and gender properties to understand how data is grouped.
+[ ] Access an object property using dot notation and log it.
+[ ] Access a property using bracket notation (object["key"]) to understand both access types.
+[ ] Add a new property to an object after creation and log the updated object.
+[ ] Modify an object property value and explain how object properties can change.
+[ ] Delete a property from an object using delete obj.key to manage object structure.
+[ ] Create a method inside an object and call it using this to refer to other properties.
+[ ] Use a for...in loop to iterate over object properties.
+[ ] Create a nested object (object inside an object) and access the inner value.
+[ ] Write a function that takes an object and returns a formatted string using its properties.
 
-11. Strings
-[ ] Concatenate first and last name
-[ ] Get string length
-[ ] Use toUpperCase() and toLowerCase()
+📘 Lesson 10: JavaScript Events
+🔟 Activities to Master Events
+[ ] Add a button and use onclick to log a message when it's clicked.
+[ ] Use addEventListener() to handle a click on an element.
+[ ] Attach a mouseover event to a div to change its background color on hover.
+[ ] Add a keydown event listener to an input box that logs key presses.
+[ ] Use onsubmit to prevent a form from submitting and instead log the input.
+[ ] Add a dblclick event to toggle the visibility of an element.
+[ ] Use onchange to update a value when a dropdown selection changes.
+[ ] Create a button that disables itself when clicked.
+[ ] Use event delegation to handle clicks from multiple buttons using one parent.
+[ ] Log the event.target to see which element triggered the event dynamically.
 
-12. String Methods
-[ ] Extract a word using slice() or substring()
-[ ] Replace a word in a sentence
-[ ] Check if a word exists using includes()
+📘 Lesson 11: JavaScript Strings
+🔟 Activities to Master Strings
+[ ] Declare a string variable and print its length using .length.
+[ ] Convert a string to uppercase using .toUpperCase() and lowercase with .toLowerCase().
+[ ] Extract a substring using .substring() and explain its use.
+[ ] Find the position of a word in a sentence using .indexOf().
+[ ] Replace a word in a string using .replace() and log the result.
+[ ] Use .trim() to clean up whitespace from user input.
+[ ] Split a string into an array using .split(" ") and log the result.
+[ ] Use .includes() to check if a string contains a keyword.
+[ ] Concatenate strings using + and .concat().
+[ ] Use template literals (backticks) with ${} to build a dynamic sentence.
 
-13. Numbers
-[ ] Round a decimal number
-[ ] Convert string to number using Number()
-[ ] Test for NaN
+📘 Lesson 12: JavaScript Numbers
+🔟 Activities to Master Numbers
+[ ] Declare an integer and a float and log both to the console.
+[ ] Use toFixed(2) to format a number as currency.
+[ ] Use Number() to convert a string into a number.
+[ ] Check if a value is a number using isNaN().
+[ ] Generate a random number between 0 and 1 using Math.random().
+[ ] Create a number rounding function using Math.round().
+[ ] Use Math.floor() and Math.ceil() to round down and up.
+[ ] Calculate the square root of a number using Math.sqrt().
+[ ] Use parseInt() and parseFloat() to extract numbers from strings.
+[ ] Use typeof to check the type of a number variable.
 
-14. Number Methods
-[ ] Format a number using toFixed()
-[ ] Use parseInt() and parseFloat()
-[ ] Convert a number to string
+📘 Lesson 13: JavaScript Arrays
+🔟 Activities to Master Arrays
+[ ] Create an array of 5 items and log its length.
+[ ] Add an item to the end of an array using .push().
+[ ] Remove the last item using .pop() and log the result.
+[ ] Add an item to the beginning using .unshift() and remove using .shift().
+[ ] Use .indexOf() to find the position of an item.
+[ ] Use .splice() to remove and insert elements.
+[ ] Loop through an array using for and print each item.
+[ ] Use .forEach() to run a function on each item.
+[ ] Use .map() to create a new array of transformed values.
+[ ] Sort an array of numbers using .sort() and .reverse().
 
-15. Arrays
-[ ] Create an array and access its elements
-[ ] Add items using push(), remove with pop()
-[ ] Loop through an array and log each item
+📘 Lesson 14: JavaScript Array Methods
+🔟 Activities to Master Array Methods
+[ ] Use .filter() to return only even numbers from an array.
+[ ] Use .find() to locate the first item that meets a condition.
+[ ] Use .includes() to check if a value is in an array.
+[ ] Use .every() to check if all items meet a condition.
+[ ] Use .some() to check if at least one item meets a condition.
+[ ] Use .reduce() to sum all numbers in an array.
+[ ] Chain .map() and .filter() to transform and filter values.
+[ ] Clone an array using .slice() and spread syntax.
+[ ] Flatten a nested array using .flat().
+[ ] Join all elements into a string using .join(", ").
 
-16. Array Methods
-[ ] Use join() to turn array into string
-[ ] Use sort() and reverse()
-[ ] Use filter() to find items over a certain value
+📘 Lesson 15: JavaScript Dates
+🔟 Activities to Master Date Handling
+[ ] Create a new Date object for the current date and time.
+[ ] Extract the year, month, and day using getFullYear(), getMonth(), getDate().
+[ ] Format a date as YYYY-MM-DD.
+[ ] Add 7 days to the current date and display it.
+[ ] Convert a date to ISO format using .toISOString().
+[ ] Compare two dates to find which is earlier.
+[ ] Parse a date string into a Date object using new Date('2025-06-12').
+[ ] Display the current time (hours and minutes) using getHours() and getMinutes().
+[ ] Create a countdown timer to a future date.
+[ ] Use setTimeout with a Date to run an event in the future.
 
-17. Sorting Arrays
-[ ] Sort numbers in ascending and descending order
-[ ] Sort array of strings alphabetically
-[ ] Sort objects by property value
+📘 Lesson 16: JavaScript Math
+🔟 Activities to Master Math Object
+[ ] Use Math.floor() to round down a number.
+[ ] Use Math.ceil() to round up a decimal.
+[ ] Generate a random integer between 1 and 10.
+[ ] Calculate the square root of a number using Math.sqrt().
+[ ] Use Math.max() and Math.min() to find extremes in an array.
+[ ] Round a number to 2 decimal places.
+[ ] Generate a random number within a given range.
+[ ] Use Math.pow(x, y) to raise numbers to a power.
+[ ] Find the absolute value of a number using Math.abs().
+[ ] Create a math quiz that uses random number generation and rounding.
 
-18. Dates
-[ ] Create a new Date() object and log it
-[ ] Format a date as YYYY-MM-DD
-[ ] Display hours, minutes, seconds
+📘 Lesson 17: JavaScript Random
+🔟 Activities to Master Math.random()
+[ ] Generate a random decimal between 0 and 1 using Math.random() and log it.
+[ ] Multiply Math.random() by 10 and round to get a whole number between 0 and 9.
+[ ] Create a function that returns a random number between two given values.
+[ ] Simulate a dice roll using Math.floor(Math.random() * 6) + 1.
+[ ] Randomly select an element from an array.
+[ ] Build a coin flip function that returns "heads" or "tails".
+[ ] Create a simple number guessing game using random numbers.
+[ ] Simulate a lottery number picker that returns 6 unique numbers between 1 and 49.
+[ ] Use Math.random() to randomly change the background color of a webpage.
+[ ] Create a random password generator using random characters.
 
-19. Date Methods
-[ ] Show the current year using getFullYear()
-[ ] Find days until your next birthday
-[ ] Compare two dates
+📘 Lesson 18: JavaScript Booleans
+🔟 Activities to Master Booleans
+[ ] Declare a boolean variable as true and one as false and log both.
+[ ] Write a function that returns true if a number is even.
+[ ] Use a boolean in an if condition to show or hide an element.
+[ ] Convert different types to boolean using Boolean(value).
+[ ] Use !!value to coerce a variable to its boolean form.
+[ ] Compare two numbers and log the boolean result.
+[ ] Use === to compare both value and type.
+[ ] Demonstrate the truthy/falsy values in a table (e.g., "", 0, null).
+[ ] Use a boolean toggle to switch a UI element on and off.
+[ ] Pass a boolean into a function to control its behavior.
 
-20. Math
-[ ] Generate a random number between 1–10
-[ ] Use Math.floor(), Math.ceil(), and Math.round()
-[ ] Calculate the square root and power
+📘 Lesson 19: JavaScript Comparisons
+🔟 Activities to Master Comparison Operators
+[ ] Compare two numbers with >, <, and == and log the results.
+[ ] Use === and !== to understand strict equality and inequality.
+[ ] Write a function that checks if a person is old enough to vote.
+[ ] Compare strings alphabetically using < and >.
+[ ] Check if two arrays are equal by comparing lengths and values.
+[ ] Use comparison inside a loop to filter values.
+[ ] Create a function that compares two strings and returns which one is longer.
+[ ] Combine multiple comparisons using && and ||.
+[ ] Use comparison operators inside a ternary expression.
+[ ] Compare two dates using relational operators.
 
-21. Booleans
-[ ] Return true if age > 18
-[ ] Convert different values to Boolean
-[ ] Log result of Boolean(""), Boolean(0), etc.
+📘 Lesson 20: JavaScript if...else Statements
+🔟 Activities to Master Conditions
+[ ] Write an if-statement that checks if a number is greater than 100.
+[ ] Use if-else to respond differently based on user age.
+[ ] Add else if to create a grading system (e.g., A, B, C).
+[ ] Create a login check with multiple condition levels.
+[ ] Use nested if statements to handle complex conditions.
+[ ] Refactor multiple if-else statements into a switch (next lesson).
+[ ] Combine boolean logic in conditions (&&, ||).
+[ ] Use a boolean variable in an if condition.
+[ ] Create a light toggle switch using if-else.
+[ ] Add error handling to input validation with if statements.
 
-22. Comparisons
-[ ] Compare two numbers using == and ===
-[ ] Create truth table for all comparison operators
-[ ] Compare null, undefined, and 0
+📘 Lesson 21: JavaScript Switch Statement
+🔟 Activities to Master switch Statements
+[ ] Use a switch to match a number (1–3) to a corresponding weekday string.
+[ ] Rewrite a grading if-else structure using switch.
+[ ] Use switch with a default case to handle unknown inputs.
+[ ] Create a menu system where a switch maps a selection (e.g., "1") to a meal.
+[ ] Use switch(true) to evaluate range-based conditions.
+[ ] Create a switch block to map month numbers to names.
+[ ] Nest a switch statement inside a function.
+[ ] Handle string inputs with switch to show case sensitivity behavior.
+[ ] Use switch with fall-through to combine multiple cases (e.g., case 1 and 2).
+[ ] Add comments to each case in a switch for clarity.
 
-23. Conditions (if, else, else if)
-[ ] Create a grade checker
-[ ] Check if a person can vote based on age
-[ ] Make a login system using nested if
+📘 Lesson 22: JavaScript Loops (for)
+🔟 Activities to Master for Loops
+[ ] Create a for loop that logs numbers 1 to 10.
+[ ] Loop through an array of colors and log each color.
+[ ] Use a for loop to sum the first 100 natural numbers.
+[ ] Create a multiplication table for a given number using a for loop.
+[ ] Reverse an array manually using a for loop.
+[ ] Use a for loop to print only even numbers between 1–20.
+[ ] Add continue to skip over a number (e.g., skip 13).
+[ ] Add break to exit loop when a certain condition is met.
+[ ] Create a loop that builds a string from an array.
+[ ] Use nested for loops to generate a 2D pattern (like a grid or matrix).
 
-24. Switch Statement
-[ ] Map numbers to days of the week
-[ ] Use switch to handle user roles
-[ ] Compare switch and if...else
+📘 Lesson 23: JavaScript Loops (while)
+🔟 Activities to Master while Loops
+[ ] Create a while loop that counts from 1 to 5.
+[ ] Make a countdown from 10 to 1.
+[ ] Use a while loop to ask a question until a correct answer is typed.
+[ ] Sum user input numbers until the input is 0.
+[ ] Use a while loop to build a dynamic list in HTML.
+[ ] Demonstrate an infinite loop (with caution, then fix it).
+[ ] Convert a for loop into a while loop.
+[ ] Use while to loop through an array and print values.
+[ ] Write a program that keeps running until a condition is met (e.g., random number guessing).
+[ ] Show the difference in use between while and for.
 
-25. Loops (for, while, do while)
-[ ] Print numbers 1–10 using for loop
-[ ] Count down using while
-[ ] Use do while to run at least once
+📘 Lesson 24: JavaScript Loops (do...while)
+🔟 Activities to Master do...while Loops
+[ ] Use do...while to prompt user input until "exit" is typed.
+[ ] Compare behavior of while vs do...while with false initial condition.
+[ ] Write a do...while loop to keep asking for a number until it’s even.
+[ ] Create a loop that runs at least once even with a false condition.
+[ ] Build a password prompt that allows retries using do...while.
+[ ] Print a menu with a do...while loop until the user chooses to quit.
+[ ] Log a countdown using do...while.
+[ ] Collect and display 5 user inputs using do...while.
+[ ] Use a do...while to simulate a game turn or retry system.
+[ ] Combine do...while with conditions using logical operators.
 
-26. Break and Continue
-[ ] Stop a loop at a certain number using break
-[ ] Skip odd numbers using continue
-[ ] Exit loop when a target value is found
+📘 Lesson 25: JavaScript Break
+🔟 Activities to Master break
+[ ] Use break to exit a loop when a match is found.
+[ ] Add break in a number guessing game to stop once guessed.
+[ ] Use break in nested loops to exit outer loop conditionally.
+[ ] Insert break inside a switch to avoid fall-through.
+[ ] Build a login attempt limiter using break after 3 tries.
+[ ] Use break in a loop that finds the first even number.
+[ ] Write a search function using a loop and break.
+[ ] Use break in a prompt loop that exits on cancel.
+[ ] Show how break can end a while loop early.
+[ ] Combine break with if statements inside a loop.
 
-27. Type Conversion
-[ ] Convert string to number and number to string
-[ ] Use Boolean() on values
-[ ] Show results of automatic coercion in math
+📘 Lesson 26: JavaScript Continue
+🔟 Activities to Master continue
+[ ] Use continue to skip over odd numbers in a loop.
+[ ] Skip logging of empty string values in an array.
+[ ] Write a loop that ignores null or undefined items.
+[ ] Use continue to ignore invalid inputs.
+[ ] Combine continue with logging even-numbered indices.
+[ ] Use continue to filter out specific values (like 0) during sum.
+[ ] Skip over lowercase letters in a character array.
+[ ] Use continue in a form validation loop.
+[ ] Combine continue with forEach() logic in a callback.
+[ ] Demonstrate behavior of continue inside nested loops.
 
-28. Bitwise Operators
-[ ] Calculate 5 & 1, 5 | 1, ~5
-[ ] Convert numbers to binary and explain
-[ ] Use bitwise to check odd/even (value & 1)
+📘 Lesson 27: JavaScript Iterables
+🔟 Activities to Master Iterables
+[ ] Loop through a string using a for...of loop.
+[ ] Use for...of to iterate over an array and print each value.
+[ ] Create a custom iterable object with [Symbol.iterator]().
+[ ] Loop through a Map using for...of.
+[ ] Convert a string to an array using the spread operator [...str].
+[ ] Use destructuring with for...of on an array of arrays.
+[ ] Use Array.from() to convert a string to an array.
+[ ] Count how many vowels are in a string using iteration.
+[ ] Use a generator function to create a simple counter iterable.
+[ ] Compare iterable vs non-iterable objects with for...of.
 
-29. Regular Expressions
-[ ] Test if a string contains a number
-[ ] Match an email pattern
-[ ] Replace all whitespace with -
+📘 Lesson 28: JavaScript Sets
+🔟 Activities to Master Sets
+[ ] Create a Set with a list of values.
+[ ] Add values to a Set and check its size.
+[ ] Try to add duplicate values and observe the behavior.
+[ ] Use has() to check if a value exists in a Set.
+[ ] Remove a value using delete().
+[ ] Loop through a Set using for...of.
+[ ] Convert a Set to an array using the spread operator.
+[ ] Remove duplicates from an array using a Set.
+[ ] Create a function that checks for unique values using Set.
+[ ] Compare the use of Set and Array for unique item collections.
 
-30. Errors - try...catch
-[ ] Use try...catch for undefined variable
-[ ] Handle error and display a user-friendly message
-[ ] Log error name and message
+📘 Lesson 29: JavaScript Maps
+🔟 Activities to Master Maps
+[ ] Create a Map and set key-value pairs.
+[ ] Use objects or functions as keys in a Map.
+[ ] Get a value from a Map using .get().
+[ ] Check if a key exists with .has().
+[ ] Loop through keys and values using for...of.
+[ ] Convert a Map to an array using Array.from().
+[ ] Delete a key from a Map using .delete().
+[ ] Use .size to get the number of items.
+[ ] Create a user profile system using Map for dynamic keys.
+[ ] Compare Map vs Object for dynamic keys.
 
-31. Scope
-[ ] Show local and global scope differences
-[ ] Use let inside a block and test access
-[ ] Try accessing a var declared inside a function
+📘 Lesson 30: JavaScript Typeof
+🔟 Activities to Master Type Checking
+[ ] Use typeof to check the type of a string.
+[ ] Check the type of a number, boolean, and undefined value.
+[ ] Log the type of a function using typeof.
+[ ] Identify the issue with typeof null === "object" and explain.
+[ ] Check if a variable is an object, then access its properties.
+[ ] Write a type-checking function that returns the variable type.
+[ ] Use typeof before and after changing a variable's value.
+[ ] Combine typeof with if statements for validation.
+[ ] Detect an array using Array.isArray() instead of typeof.
+[ ] Create a quiz that asks the user to guess types.
 
-32. Hoisting
-[ ] Log var before declaration (should be undefined)
-[ ] Try logging let before declaration (error)
-[ ] Use a function before its declaration
+📘 Lesson 31: JavaScript Type Conversion
+🔟 Activities to Master Type Conversion
+[ ] Convert a string "42" to number using Number().
+[ ] Convert number 42 to string using String().
+[ ] Use parseInt() and parseFloat() on user input.
+[ ] Check type using typeof after each conversion.
+[ ] Convert boolean to string and back.
+[ ] Try converting undefined, null, and "" to numbers.
+[ ] Coerce values using + unary operator.
+[ ] Compare implicit vs explicit type coercion.
+[ ] Log truthy/falsy results of various conversions.
+[ ] Build a form handler that converts all values to proper types.
 
-33. Strict Mode
-[ ] Add "use strict" and declare a variable without let (should error)
-[ ] Use duplicate parameter names (should error)
-[ ] Compare output with and without strict mode
+📘 Lesson 32: JavaScript Destructuring
+🔟 Activities to Master Destructuring
+[ ] Use array destructuring to assign values from an array to separate variables.
+[ ] Use object destructuring to extract properties into variables.
+[ ] Set default values while destructuring.
+[ ] Rename variables when destructuring object properties.
+[ ] Destructure nested objects and arrays.
+[ ] Use destructuring as a function parameter.
+[ ] Swap two variables using array destructuring.
+[ ] Combine rest syntax with destructuring to capture remaining elements.
+[ ] Use destructuring in loops to extract data from arrays of objects.
+[ ] Destructure return values from a function.
 
-34. this Keyword
-[ ] Create an object method that uses this.name
-[ ] Use this in a constructor function
-[ ] Compare this in arrow vs regular function
+📘 Lesson 33: JavaScript Bitwise Operators
+🔟 Activities to Master Bitwise Operators
+[ ] Use & to check shared bits between 5 and 3.
+[ ] Use | to combine bits of two numbers.
+[ ] Use ^ to toggle bits.
+[ ] Use ~ to invert bits and observe the result.
+[ ] Shift bits left << and right >> for value manipulation.
+[ ] Demonstrate >>> unsigned right shift.
+[ ] Use bitwise AND to check if a number is even.
+[ ] Build a permissions system using bitwise flags.
+[ ] Compare bitwise vs logical operators.
+[ ] Print binary versions of values using .toString(2).
 
-35. Arrow Functions
-[ ] Convert a normal function to arrow function
-[ ] Use arrow function with no parameters
-[ ] Use arrow function with implicit return
+📘 Lesson 34: JavaScript RegExp
+🔟 Activities to Master Regular Expressions
+[ ] Create a RegExp to test if a string contains numbers.
+[ ] Use .test() to check if an email format is valid.
+[ ] Use .match() to find all digits in a string.
+[ ] Replace all spaces in a string with hyphens using RegExp.
+[ ] Extract dates in dd/mm/yyyy format from a text.
+[ ] Build a RegExp that validates a username.
+[ ] Use RegExp with .replace() to clean up text.
+[ ] Use flags like i and g in a RegExp.
+[ ] Create a RegExp to validate phone numbers.
+[ ] Test password strength using a RegExp pattern.
 
-36. Classes
-[ ] Create a class Person with constructor and method
-[ ] Instantiate 2 objects from class
-[ ] Extend class with another class (Student)
+📘 Lesson 35: JavaScript Operator Precedence
+🔟 Activities to Master Operator Precedence
+[ ] Evaluate and compare 2 + 3 * 4 vs (2 + 3) * 4 to observe precedence.
+[ ] Combine arithmetic and assignment operators and log the result.
+[ ] Use multiple comparison operators in one statement and log the result.
+[ ] Create an expression that uses logical && and || and analyze order of evaluation.
+[ ] Test precedence with string concatenation and arithmetic operators.
+[ ] Use the MDN operator precedence table to manually predict outcomes.
+[ ] Write a function that uses ternary and arithmetic operators together.
+[ ] Refactor an expression with unnecessary parentheses to improve readability.
+[ ] Test precedence between equality and logical operators.
+[ ] Create a quiz that asks users to predict results of expressions with different precedence.
 
-37. JSON
-[ ] Convert an object to JSON string using JSON.stringify()
-[ ] Parse a JSON string using JSON.parse()
-[ ] Create a simple fetch to retrieve JSON (optional)
+📘 Lesson 36: JavaScript Errors - Throw and Try...Catch
+🔟 Activities to Master Error Handling
+[ ] Wrap risky code in a try block and catch errors.
+[ ] Use throw to raise custom error messages.
+[ ] Catch a ReferenceError and log a helpful message.
+[ ] Build a calculator that throws on invalid operations.
+[ ] Handle JSON.parse() errors gracefully.
+[ ] Nest try-catch blocks and handle each specifically.
+[ ] Use finally to log completion status.
+[ ] Validate user input and throw if empty.
+[ ] Combine try-catch with user prompts.
+[ ] Handle errors from asynchronous functions using try-catch.
 
-38. Debugging
-[ ] Use console.log() to debug variable values
-[ ] Use debugger; inside a function and step through in browser
-[ ] Log type of variables with typeof
+📘 Lesson 37: JavaScript Scope
+🔟 Activities to Master Scope
+[ ] Declare a global variable and access it inside a function.
+[ ] Create a local variable and try accessing it outside.
+[ ] Define variables using var, let, and const in blocks.
+[ ] Show hoisting behavior with var.
+[ ] Use closures to create private variables.
+[ ] Nest functions and access outer scope from inner.
+[ ] Show how shadowing works with same-named variables.
+[ ] Build a counter using a closure.
+[ ] Test block-level scope with let.
+[ ] Explain how scope affects memory and access.
 
-39. Reserved Words
-[ ] Try declaring a variable with a reserved word (e.g., let for = 5)
-[ ] Make a list of reserved words
-[ ] Practice identifying which words are not allowed
+📘 Lesson 38: JavaScript Hoisting
+🔟 Activities to Master Hoisting
+[ ] Log a variable declared with var before initialization.
+[ ] Try hoisting a let variable and see the error.
+[ ] Call a function before it's declared.
+[ ] Use function expressions and observe hoisting behavior.
+[ ] Compare function declarations vs expressions.
+[ ] Log the temporal dead zone with let and const.
+[ ] Create a script that works due to hoisting.
+[ ] Document the hoisting order of declarations.
+[ ] Use typeof on variables before declaration.
+[ ] Refactor hoisted code for clarity.
 
+📘 Lesson 39: JavaScript Strict Mode
+🔟 Activities to Master 'use strict'
+[ ] Enable strict mode in a script and observe its effect.
+[ ] Try assigning to an undeclared variable (error in strict mode).
+[ ] Use strict mode to prevent deletion of variables.
+[ ] Test assignment to read-only properties.
+[ ] Write a function in strict mode and another without.
+[ ] Use this in a strict mode function and log result.
+[ ] Create a mistake caught only in strict mode.
+[ ] Enable strict mode only in a function scope.
+[ ] Compare error behavior in both modes.
+[ ] Document why strict mode improves code safety.
+
+📘 Lesson 40: JavaScript this Keyword
+🔟 Activities to Master this
+[ ] Use this inside a method to access the current object.
+[ ] Bind this manually using .bind().
+[ ] Use this in a constructor function.
+[ ] Create a method that logs different results depending on the caller.
+[ ] Compare this in strict vs non-strict mode.
+[ ] Use this inside an event listener.
+[ ] Test this in an arrow function vs a normal function.
+[ ] Use call() to invoke a function with a specific this.
+[ ] Use apply() to pass arguments with a specified this.
+[ ] Create a reusable function that works on any object using this.
+
+📘 Lesson 41: JavaScript Arrow Function
+🔟 Activities to Master Arrow Functions
+[ ] Rewrite a simple function as an arrow function.
+[ ] Create an arrow function with no parameters.
+[ ] Use an arrow function with implicit return.
+[ ] Use an arrow function inside .map() or .forEach().
+[ ] Compare this in an arrow function vs regular function.
+[ ] Create a one-line arrow function to double a number.
+[ ] Convert a function that uses a callback to use arrow syntax.
+[ ] Use arrow function to filter even numbers in an array.
+[ ] Test returning an object literal in arrow function.
+[ ] Create arrow functions for math operations.
+
+📘 Lesson 42: JavaScript Classes
+🔟 Activities to Master Classes
+[ ] Define a class with a constructor.
+[ ] Create multiple instances of the same class.
+[ ] Add a method to a class.
+[ ] Use this inside a class method.
+[ ] Extend a class with another class using extends.
+[ ] Call super() in a child class constructor.
+[ ] Override a method in a subclass.
+[ ] Add static methods to a class.
+[ ] Create a class that manages a list (add/remove items).
+[ ] Convert a constructor function to a class syntax.
+
+📘 Lesson 43: JavaScript Modules
+🔟 Activities to Master ES Modules
+[ ] Create a math.js file that exports multiple functions using export.
+[ ] Import functions in another file using import { functionName } from './math.js'.
+[ ] Use export default to export a single primary function or object.
+[ ] Combine named exports and a default export in one file.
+[ ] Import everything from a module using * as alias.
+[ ] Use modules to split a project into separate reusable files.
+[ ] Create a module that returns a formatted string and reuse it in different scripts.
+[ ] Understand and implement static and dynamic imports.
+[ ] Set "type": "module" in package.json or use .mjs for native modules in Node.js.
+[ ] Build a mini app with separate modules: UI.js, Utils.js, and Main.js.
+
+📘 Lesson 44: JavaScript JSON
+🔟 Activities to Master JSON Handling
+[ ] Convert a JavaScript object to a JSON string using JSON.stringify().
+[ ] Parse a JSON string into an object using JSON.parse().
+[ ] Fetch JSON from an API and log the result.
+[ ] Store user data in localStorage using JSON.
+[ ] Explain the difference between JSON and JavaScript objects.
+[ ] Create a nested object and convert it to JSON.
+[ ] Try parsing invalid JSON and catch the error.
+[ ] Use JSON.stringify(obj, null, 2) for pretty-printing.
+[ ] Create a form that saves user input as JSON.
+[ ] Explain JSON limitations (e.g., no functions or undefined values).
+
+📘 Lesson 45: JavaScript Debugging
+🔟 Activities to Master Debugging
+[ ] Add console.log() at multiple steps to trace execution.
+[ ] Use debugger keyword and step through in browser.
+[ ] Inspect variables in browser dev tools.
+[ ] Use breakpoints to pause on a specific line.
+[ ] Debug a syntax error and explain the fix.
+[ ] Log the call stack using console.trace().
+[ ] Debug an undefined variable issue.
+[ ] Fix off-by-one errors in loops.
+[ ] Refactor messy code for better readability.
+[ ] Use typeof to debug type mismatches.
+
+📘 Lesson 46: JavaScript Style Guide
+🔟 Activities to Master Good Style
+[ ] Follow consistent indentation across all lines.
+[ ] Declare variables at the top of functions.
+[ ] Use camelCase for variable and function names.
+[ ] Break long lines (>80 characters) into multiple lines.
+[ ] Use consistent spacing around operators.
+[ ] Refactor poorly named variables.
+[ ] Add inline and block comments to complex code.
+[ ] Use semicolons consistently (per team style).
+[ ] Avoid global variables unless necessary.
+[ ] Follow naming conventions for constants (ALL_CAPS).
+
+📘 Lesson 47: JavaScript Best Practices
+🔟 Activities for Best Practices
+[ ] Use let and const instead of var.
+[ ] Avoid modifying global variables.
+[ ] Write small, single-purpose functions.
+[ ] Use meaningful variable names.
+[ ] Limit line length to increase readability.
+[ ] Use strict comparison (===) instead of ==.
+[ ] Handle errors with try/catch where needed.
+[ ] Sanitize user input.
+[ ] Reuse code with functions or modules.
+[ ] Document functions with purpose and parameters.
+
+📘 Lesson 48: JavaScript Mistakes
+🔟 Activities to Identify and Avoid Common Mistakes
+[ ] Try accessing a variable before declaration and fix it.
+[ ] Assign without declaring and explain the impact.
+[ ] Compare == vs === in unexpected comparisons.
+[ ] Use a reserved word as a variable and observe the error.
+[ ] Forget to use break in switch and show what happens.
+[ ] Assign rather than compare in a conditional (= vs ==).
+[ ] Misuse this in a nested function and fix with arrow.
+[ ] Log the result of adding a string and number.
+[ ] Use const correctly (no reassignment).
+[ ] Fix a loop with an incorrect exit condition.
+
+📘 Lesson 49: JavaScript Performance
+🔟 Activities to Improve JS Performance
+[ ] Minimize DOM manipulation inside loops.
+[ ] Cache selectors or variables instead of repeating calls.
+[ ] Use array methods efficiently instead of manual loops.
+[ ] Measure code execution time using console.time().
+[ ] Use requestAnimationFrame() for animations.
+[ ] Optimize loops by reducing unnecessary checks.
+[ ] Avoid memory leaks by detaching unused event listeners.
+[ ] Batch DOM updates using fragments.
+[ ] Avoid deep nesting of callbacks.
+[ ] Use debounce() for frequent events (like scroll or resize).
+
+📘 Lesson 50: JavaScript Reserved Words
+🔟 Activities to Master Reserved Words Awareness
+[ ] List at least 15 JavaScript reserved words that cannot be used as variable names.
+[ ] Try declaring variables using reserved words and observe syntax errors.
+[ ] Create a naming guide that avoids reserved keywords and uses conventions.
+[ ] Identify reserved words in a code snippet and explain their purpose.
+[ ] Refactor badly written code using reserved words inappropriately.
+[ ] Use a linter (like ESLint) to detect improper keyword usage.
+[ ] Explore differences between strict mode and non-strict mode handling of reserved words.
+[ ] Write a comment for each reserved word in a code sample to explain what it does.
+[ ] Explain why using await or class as a variable name fails in modern JavaScript.
+[ ] Make a cheat sheet of all reserved keywords for future reference.
