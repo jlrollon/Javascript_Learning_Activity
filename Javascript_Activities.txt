@@ -1,7 +1,5 @@
 ✅ JavaScript Tutorial Activities Checklist
 
-Note: Use [ ] for unfinished activities and [x] for completed ones.
-
 📘 Lesson 1: JavaScript Output
 🔟 Activities to Master Output
 [ ] Use alert() to display a welcome message when the page loads, which helps you understand how JavaScript interacts with users immediately.
