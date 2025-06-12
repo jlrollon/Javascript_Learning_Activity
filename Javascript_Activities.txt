@@ -1,0 +1,199 @@
+✅ JavaScript Tutorial Activities Checklist
+
+1. Output
+[x] Use alert() to show a greeting
+[ ] Use document.write() to display your name
+[ ] Use console.log() to show the result of 10 + 5
+[ ] Prompt a user for input and display it using all 3 output types
+
+2. Statements and Syntax
+[ ] Write three working JavaScript statements
+[ ] Write a statement with a missing semicolon and fix it
+[ ] Use a block {} to wrap multiple statements
+
+3. Comments
+[ ] Add a single-line comment to describe a line
+[ ] Use a multi-line comment to explain a section
+[ ] Comment out a line to temporarily disable it
+
+4. Variables (var, let, const)
+[ ] Declare a name, age, and city using let
+[ ] Try reassigning a const and observe error
+[ ] Show how var behaves differently in a block
+
+5. Operators
+[ ] Add, subtract, multiply, divide two numbers
+[ ] Use comparison operators like ==, !=, >, ===
+[ ] Use && and || to combine conditions
+[ ] Use ++ and -- on a counter
+
+6. Arithmetic and Assignment Operators
+[ ] Use +=, -=, *=, /= on a variable
+[ ] Create a simple calculator using assignment operators
+[ ] Use exponent ** to calculate powers
+
+7. Data Types
+[ ] Declare a string, number, boolean, object, and array
+[ ] Use typeof to print the type of each
+[ ] Assign null and undefined to variables
+
+8. Functions
+[ ] Create a function that returns a greeting
+[ ] Create a function that calculates a sum
+[ ] Create a function that checks even or odd numbers
+
+9. Objects
+[ ] Create an object with name, age, and city
+[ ] Access object properties using dot and bracket
+[ ] Add and delete a property
+
+10. Events
+[ ] Create a button that shows an alert on click
+[ ] Use onmouseover to change background color
+[ ] Use onkeydown to log key press
+
+11. Strings
+[ ] Concatenate first and last name
+[ ] Get string length
+[ ] Use toUpperCase() and toLowerCase()
+
+12. String Methods
+[ ] Extract a word using slice() or substring()
+[ ] Replace a word in a sentence
+[ ] Check if a word exists using includes()
+
+13. Numbers
+[ ] Round a decimal number
+[ ] Convert string to number using Number()
+[ ] Test for NaN
+
+14. Number Methods
+[ ] Format a number using toFixed()
+[ ] Use parseInt() and parseFloat()
+[ ] Convert a number to string
+
+15. Arrays
+[ ] Create an array and access its elements
+[ ] Add items using push(), remove with pop()
+[ ] Loop through an array and log each item
+
+16. Array Methods
+[ ] Use join() to turn array into string
+[ ] Use sort() and reverse()
+[ ] Use filter() to find items over a certain value
+
+17. Sorting Arrays
+[ ] Sort numbers in ascending and descending order
+[ ] Sort array of strings alphabetically
+[ ] Sort objects by property value
+
+18. Dates
+[ ] Create a new Date() object and log it
+[ ] Format a date as YYYY-MM-DD
+[ ] Display hours, minutes, seconds
+
+19. Date Methods
+[ ] Show the current year using getFullYear()
+[ ] Find days until your next birthday
+[ ] Compare two dates
+
+20. Math
+[ ] Generate a random number between 1–10
+[ ] Use Math.floor(), Math.ceil(), and Math.round()
+[ ] Calculate the square root and power
+
+21. Booleans
+[ ] Return true if age > 18
+[ ] Convert different values to Boolean
+[ ] Log result of Boolean(""), Boolean(0), etc.
+
+22. Comparisons
+[ ] Compare two numbers using == and ===
+[ ] Create truth table for all comparison operators
+[ ] Compare null, undefined, and 0
+
+23. Conditions (if, else, else if)
+[ ] Create a grade checker
+[ ] Check if a person can vote based on age
+[ ] Make a login system using nested if
+
+24. Switch Statement
+[ ] Map numbers to days of the week
+[ ] Use switch to handle user roles
+[ ] Compare switch and if...else
+
+25. Loops (for, while, do while)
+[ ] Print numbers 1–10 using for loop
+[ ] Count down using while
+[ ] Use do while to run at least once
+
+26. Break and Continue
+[ ] Stop a loop at a certain number using break
+[ ] Skip odd numbers using continue
+[ ] Exit loop when a target value is found
+
+27. Type Conversion
+[ ] Convert string to number and number to string
+[ ] Use Boolean() on values
+[ ] Show results of automatic coercion in math
+
+28. Bitwise Operators
+[ ] Calculate 5 & 1, 5 | 1, ~5
+[ ] Convert numbers to binary and explain
+[ ] Use bitwise to check odd/even (value & 1)
+
+29. Regular Expressions
+[ ] Test if a string contains a number
+[ ] Match an email pattern
+[ ] Replace all whitespace with -
+
+30. Errors - try...catch
+[ ] Use try...catch for undefined variable
+[ ] Handle error and display a user-friendly message
+[ ] Log error name and message
+
+31. Scope
+[ ] Show local and global scope differences
+[ ] Use let inside a block and test access
+[ ] Try accessing a var declared inside a function
+
+32. Hoisting
+[ ] Log var before declaration (should be undefined)
+[ ] Try logging let before declaration (error)
+[ ] Use a function before its declaration
+
+33. Strict Mode
+[ ] Add "use strict" and declare a variable without let (should error)
+[ ] Use duplicate parameter names (should error)
+[ ] Compare output with and without strict mode
+
+34. this Keyword
+[ ] Create an object method that uses this.name
+[ ] Use this in a constructor function
+[ ] Compare this in arrow vs regular function
+
+35. Arrow Functions
+[ ] Convert a normal function to arrow function
+[ ] Use arrow function with no parameters
+[ ] Use arrow function with implicit return
+
+36. Classes
+[ ] Create a class Person with constructor and method
+[ ] Instantiate 2 objects from class
+[ ] Extend class with another class (Student)
+
+37. JSON
+[ ] Convert an object to JSON string using JSON.stringify()
+[ ] Parse a JSON string using JSON.parse()
+[ ] Create a simple fetch to retrieve JSON (optional)
+
+38. Debugging
+[ ] Use console.log() to debug variable values
+[ ] Use debugger; inside a function and step through in browser
+[ ] Log type of variables with typeof
+
+39. Reserved Words
+[ ] Try declaring a variable with a reserved word (e.g., let for = 5)
+[ ] Make a list of reserved words
+[ ] Practice identifying which words are not allowed
+
